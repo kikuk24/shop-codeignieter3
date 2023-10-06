@@ -1,4 +1,4 @@
-<main role="main" class="container">
+<main role="main" class="container mt-4">
   <?php $this->load->view('layouts/_alert') ?>
   <div class="row">
     <div class="col-md-9">

@@ -1,9 +1,4 @@
-RewriteEngine on
-
-Options All -Indexes
-Indexignore *
-
-RewriteCond $1 !^(index\.php|images|js|css|favicon\.png)
+RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ ./indexindex.php/$1 [L]
+RewriteRule ^(.*)$ index.php/$1 [L]
