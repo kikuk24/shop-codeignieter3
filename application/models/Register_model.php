@@ -17,7 +17,9 @@ class Register_model extends MY_Model
       'is_active'  => ''
     ];
   }
-
+  /**
+   * persyaratan yang harus dimasukan oleh user untuk membuat akun baru
+   */
   public function getValidationRules()
   {
     $validationRules = [
@@ -48,7 +50,9 @@ class Register_model extends MY_Model
 
     return $validationRules;
   }
-
+/**
+ * Membuat data baru dengan default role member
+ */
   public function run($input)
   {
     $data    = [
@@ -59,7 +63,7 @@ class Register_model extends MY_Model
     ];
 
     $user    = $this->create($data);
-
+// !untuk memasukan data kedalam session
     $sess_data  = [
       'id'    => $user,
       'name'    => $data['name'],
