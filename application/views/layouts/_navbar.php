@@ -29,25 +29,29 @@
             <a class="nav-link active" aria-current="page" href="/cart.html"><i class="fa-solid fa-shopping-cart"></i> Cart (1)
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/login.html">Login</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="<?= base_url('/register') ?>">Register</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Admin
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
+          <?php if (!$this->session->userdata('is_login')) : ?>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="<?= base_url('/login') ?>">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="<?= base_url('/register') ?>">Register</a>
+            </li>
+          <?php else : ?>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <?= $this->session->userdata('name') ?>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Profile</a></li>
+                <li><a class="dropdown-item" href="#">Orders</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="<?= base_url('/logout')?>">Logout</a></li>
+
+              <?php endif ?>
+              </ul>
+            </li>
         </ul>
       </div>
     </div>
