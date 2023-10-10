@@ -17,7 +17,7 @@
 
       <div class="row">
         <?php foreach ($content as $row) : ?>
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="card mb-3">
               <img src="<?= $row->image ? base_url("/images/product/$row->image") : base_url("/images/product/default.png") ?>" alt="" height="" class="card-img-top">
               <div class="card-body">

@@ -12,6 +12,7 @@
   <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/navbar-fixed/">
 
   <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
   <link href="./assets/libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Fontawesome CSS -->
   <link rel="stylesheet" href="./assets/libs/fontawesome/css/all.min.css">
@@ -32,6 +33,7 @@
   <script src="./assets/libs/jquery/jquery-3.4.1.min.js"></script>
   <script src="./assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="./assets/js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
