@@ -8,7 +8,7 @@
             <div class="card-body">
               Kategori: <strong><?= isset($category) ? $category : 'Semua Kategori' ?></strong>
               <span class="float-right">
-                Urutkan Harga: <a href="<?= base_url("/shop/sortby/asc") ?>" class="badge-primary">Termurah</a> | <a href="<?= base_url("/shop/sortby/desc") ?>" class="badge-primary">Termahal</a>
+                Urutkan Harga: <a href="<?= base_url("/shop/sortby/termurah") ?>" class="badge-primary">Termurah</a> | <a href="<?= base_url("/shop/sortby/termahal") ?>" class="badge-primary">Termahal</a>
               </span>
             </div>
           </div>

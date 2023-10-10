@@ -11,7 +11,7 @@
           <p>Terima kasih, sudah berbelanja.</p>
           <p>Silakan lakukan pembayaran untuk bisa kami proses selanjutnya dengan cara:</p>
           <ol>
-            <li>Lakukan pembayaran pada rekening <strong>BCA 3209123123</strong> a/n PT. CIShop</li>
+            <li>Lakukan pembayaran pada rekening <strong>BRI 12345678</strong> a/n PT. KikukShop</li>
             <li>Sertakan keterangan dengan nomor order: <strong><?= $content->invoice ?></strong></li>
             <li>Total pembayaran: <strong>Rp<?= number_format($content->total, 0, ',', '.') ?>,-</strong></li>
           </ol>
