@@ -13,3 +13,6 @@ For Login
 Admin : 
 email : admin@mamam.id
 pw : 12345678
+
+demo  
+https://kikukshop.000webhostapp.com/
