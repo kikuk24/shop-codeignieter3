@@ -10,7 +10,6 @@ Fitur yang di muat
 -  `Product Manage`_
 
 For Login
-Admin : 
 email : admin@mamam.id
 pw : 12345678
 
