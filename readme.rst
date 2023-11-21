@@ -9,9 +9,9 @@ Fitur yang di muat
 -  `Category  Manage`_
 -  `Product Manage`_
 
-For Login  
-email : admin@mamam.id  
-pw : 12345678
+For Login  <br>
+email : admin@mamam.id  <br>
+pw : 12345678 <br>
 
 demo  
 https://kikukshop.000webhostapp.com/
