@@ -1,17 +1,16 @@
-#############################################
-Fullstack Shop Sederhana Berbasis Code Ignieter
-#############################################
+Fullstack Shop Sederhana Berbasis CodeIgniter
+==============================================
 
-******************
-Fitur yang di muat
-******************
--  `Multirole Manage`_
--  `Category  Manage`_
--  `Product Manage`_
+Fitur yang Dimuat
+------------------
+- Manajemen Multirole
+- Manajemen Kategori
+- Manajemen Produk
 
-For Login  <br>
-email : admin@mamam.id  <br>
-pw : 12345678 <br>
+Untuk Login:
+- Email: admin@mamam.id
+- Kata Sandi: 12345678
 
-demo  
-https://kikukshop.000webhostapp.com/
+Demo
+----
+[Klik di sini](https://kikukshop.000webhostapp.com/)
